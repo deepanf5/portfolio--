@@ -102,6 +102,7 @@ header  {
   
   .nav-item {
     text-transform: capitalize;
+    padding: 1rem;
   }
 
 

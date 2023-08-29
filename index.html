@@ -12,7 +12,13 @@
     <header>
         <nav class="nav">
             <a href=""><img class="logo"  src="/images/logo.svg" alt="website logo"></a>
-            <ul class="nav-list">
+
+            <div class="icon nav-icon-5" onclick="myFunction()">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+            <ul class="nav-list" id="nav">
                 <li class="nav-item"><a href="#experience">Experience</a></li>
                 <li class="nav-item"><a href="#projects">projects</a></li>
                 <li class="nav-item"><a href="#footer"><a  href="mailto:lokeshyuv@gmail.com">Reach me</a></a></li>
@@ -183,6 +189,13 @@
         </div>
         
     </footer>
+
+    <script>
+        function myFunction() {
+        let navbar = document.getElementById('nav');
+        navbar.classList.toggle('show');
+}
+    </script>
     <script src="/index.js"></script>
 </body>
 </html>
